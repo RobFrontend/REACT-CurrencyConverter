@@ -13,7 +13,12 @@ html {
 
 body {
   font-family: "Chakra Petch", sans-serif;
-  background-color: #fafcf7;
+  /* background-color: rgba(250, 252, 247, 0.5); */
+  background: linear-gradient(
+    to bottom right,
+    rgba(250, 252, 247, 0.1),
+    rgba(250, 252, 247)
+  );
   color: #89aa9f;
   min-height: 100vh;
 }
@@ -85,6 +90,8 @@ select {
 .flag-img-box img {
   width: 100%;
   max-height: 15rem;
+  box-shadow: 0px 0px 30px -10px #89aa9f;
+  border-radius: 5px;
 }
 
 *:focus {
