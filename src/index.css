@@ -88,9 +88,8 @@ select {
 }
 
 .flag-img-box img {
-  width: 100%;
   max-height: 15rem;
-  box-shadow: 0px 0px 30px -10px #89aa9f;
+  box-shadow: 0px 0px 30px -10px rgba(137, 170, 159, 0.4);
   border-radius: 5px;
 }
 
